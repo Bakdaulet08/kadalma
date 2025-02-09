@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="650.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.kadalma.mainController">
+   <children>
+       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9019" height="58.0" layoutX="140.0" stroke="BLACK" strokeType="INSIDE" width="510.0" />
+       <Label layoutX="194.0" layoutY="5.0" text="Kadalma.sdu" textFill="WHITE">
+           <font>
+               <Font name="Arial Bold" size="42.0" />
+           </font>
+       </Label>
+       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#8b99a6" height="82.0" layoutX="18.0" layoutY="157.0" stroke="BLACK" strokeType="INSIDE" width="109.0" />
+       <Label layoutX="31.0" layoutY="180.0" text="Login" textFill="WHITE">
+           <font>
+               <Font name="Arial Bold" size="30.0" />
+           </font>
+       </Label>
+       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bf9019" height="82.0" layoutX="17.0" layoutY="246.0" stroke="BLACK" strokeType="INSIDE" width="109.0" />
+       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#8b99a6" height="82.0" layoutX="17.0" layoutY="336.0" stroke="BLACK" strokeType="INSIDE" width="109.0" />
+       <Label layoutX="25.0" layoutY="359.0" text="Result" textFill="WHITE">
+           <font>
+               <Font name="Arial Bold" size="30.0" />
+           </font>
+       </Label>
+       <Label layoutX="14.0" layoutY="263.0" prefHeight="48.0" prefWidth="150.0" text="Testing" textFill="WHITE">
+           <font>
+               <Font name="Arial Bold" size="30.0" />
+           </font>
+       </Label>
+       <ScrollPane layoutX="140.0" layoutY="58.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="490.0" prefWidth="510.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1">
+           <content>
+               <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1000.0" prefWidth="494.0" style="-fx-background-color: #2E3348;">
+                   <children>
+                       <Label layoutX="51.0" layoutY="59.0" prefHeight="31.0" prefWidth="288.0" text="6. What is the binary equivalent " textFill="WHITE">
+                           <font>
+                               <Font size="20.0" />
+                           </font>
+                       </Label>
+                       <RadioButton fx:id="cr6" layoutX="64.0" layoutY="120.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="265.0" text="a) 1010 " textFill="WHITE">
+                           <font>
+                               <Font size="15.0" />
+                           </font>
+                     <toggleGroup>
+                        <ToggleGroup fx:id="q6" />
+                     </toggleGroup>
+                       </RadioButton>
+                       <RadioButton layoutX="64.0" layoutY="147.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="265.0" text="b) 1101" textFill="WHITE" toggleGroup="$q6">
+                           <font>
+                               <Font size="15.0" />
+                           </font>
+                       </RadioButton>
+                       <RadioButton layoutX="64.0" layoutY="173.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="265.0" text="c) 1001" textFill="WHITE" toggleGroup="$q6">
+                           <font>
+                               <Font size="15.0" />
+                           </font>
+                       </RadioButton>
+                       <Label layoutX="64.0" layoutY="399.0" prefHeight="31.0" prefWidth="413.0" text="8. What is the full form of the acronym &quot;URL&quot;?" textFill="WHITE">
+                           <font>
+                               <Font size="20.0" />
+                           </font>
+                       </Label>
+                       <RadioButton fx:id="cr8" layoutX="64.0" layoutY="430.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="265.0" text="a) Uniform Resource Locator" textFill="WHITE">
+                           <font>
+                               <Font size="15.0" />
+                           </font>
+                     <toggleGroup>
+                        <ToggleGroup fx:id="q8" />
+                     </toggleGroup>
+                       </RadioButton>
+                       <RadioButton layoutX="64.0" layoutY="457.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="265.0" text="b) Uniform Resource Language" textFill="WHITE" toggleGroup="$q8">
+                           <font>
+                               <Font size="15.0" />
+                           </font>
+                       </RadioButton>
+                       <RadioButton layoutX="64.0" layoutY="483.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="265.0" text="c) Universal Resource Locator" textFill="WHITE" toggleGroup="$q8">
+                           <font>
+                               <Font size="15.0" />
+                           </font>
+                       </RadioButton>
+                       <Label layoutX="64.0" layoutY="544.0" prefHeight="31.0" prefWidth="337.0" text="9. Which of the following is a popular " textFill="WHITE">
+                           <font>
+                               <Font size="20.0" />
+                           </font>
+                       </Label>
+                       <RadioButton fx:id="cr9" layoutX="64.0" layoutY="606.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="265.0" text="a) Git " textFill="WHITE">
+                           <font>
+                               <Font size="15.0" />
+                           </font>
+                     <toggleGroup>
+                        <ToggleGroup fx:id="q9" />
+                     </toggleGroup>
+                       </RadioButton>
+                       <RadioButton layoutX="64.0" layoutY="633.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="265.0" text="b) SVN" textFill="WHITE" toggleGroup="$q9">
+                           <font>
+                               <Font size="15.0" />
+                           </font>
+                       </RadioButton>
+                       <RadioButton layoutX="64.0" layoutY="659.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="265.0" text="c) FTP" textFill="WHITE" toggleGroup="$q9">
+                           <font>
+                               <Font size="15.0" />
+                           </font>
+                       </RadioButton>
+                       <Label layoutX="64.0" layoutY="696.0" prefHeight="31.0" prefWidth="318.0" text="10. In computer science, what does " textFill="WHITE">
+                           <font>
+                               <Font size="20.0" />
+                           </font>
+                       </Label>
+                       <RadioButton layoutX="64.0" layoutY="764.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="265.0" text="a) Readable Access Memory" textFill="WHITE">
+                           <font>
+                               <Font size="15.0" />
+                           </font>
+                     <toggleGroup>
+                        <ToggleGroup fx:id="q10" />
+                     </toggleGroup>
+                       </RadioButton>
+                       <RadioButton fx:id="cr10" layoutX="64.0" layoutY="791.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="265.0" text="b) Random Access Memory" textFill="WHITE" toggleGroup="$q10">
+                           <font>
+                               <Font size="15.0" />
+                           </font>
+                       </RadioButton>
+                       <RadioButton layoutX="64.0" layoutY="817.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="265.0" text="c) Rapid Application Memory" textFill="WHITE" toggleGroup="$q10">
+                           <font>
+                               <Font size="15.0" />
+                           </font>
+                       </RadioButton>
+                       <Label layoutX="51.0" layoutY="229.0" prefHeight="31.0" prefWidth="283.0" text="7. Which of the following is not " textFill="WHITE">
+                           <font>
+                               <Font size="20.0" />
+                           </font>
+                       </Label>
+                       <RadioButton layoutX="64.0" layoutY="293.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="265.0" text="a) Java" textFill="WHITE">
+                           <font>
+                               <Font size="15.0" />
+                           </font>
+                     <toggleGroup>
+                        <ToggleGroup fx:id="q7" />
+                     </toggleGroup>
+                       </RadioButton>
+                       <RadioButton layoutX="64.0" layoutY="320.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="265.0" text="b) Python" textFill="WHITE" toggleGroup="$q7">
+                           <font>
+                               <Font size="15.0" />
+                           </font>
+                       </RadioButton>
+                       <RadioButton fx:id="cr7" layoutX="64.0" layoutY="346.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="265.0" text="c) HTML " textFill="WHITE" toggleGroup="$q7">
+                           <font>
+                               <Font size="15.0" />
+                           </font>
+                       </RadioButton>
+                       <Button fx:id="finishBtn" layoutX="107.0" layoutY="873.0" mnemonicParsing="false" onAction="#switchToFinish" prefHeight="43.0" prefWidth="176.0" text="Finish the test and submit" />
+                       <Label layoutX="33.0" layoutY="14.0" prefHeight="31.0" prefWidth="258.0" text="2 Part" textFill="WHITE">
+                           <font>
+                               <Font size="20.0" />
+                           </font>
+                       </Label>
+                       <Label layoutX="68.0" layoutY="82.0" prefHeight="31.0" prefWidth="288.0" text="of the decimal number 10?" textFill="WHITE">
+                           <font>
+                               <Font size="20.0" />
+                           </font>
+                       </Label>
+                       <Label layoutX="92.0" layoutY="568.0" prefHeight="31.0" prefWidth="337.0" text="version control system?" textFill="WHITE">
+                           <font>
+                               <Font size="20.0" />
+                           </font>
+                       </Label>
+                       <Label layoutX="81.0" layoutY="252.0" prefHeight="31.0" prefWidth="283.0" text="a programming language?" textFill="WHITE">
+                           <font>
+                               <Font size="20.0" />
+                           </font>
+                       </Label>
+                       <Label layoutX="92.0" layoutY="723.0" prefHeight="31.0" prefWidth="318.0" text="RAM stand for?" textFill="WHITE">
+                           <font>
+                               <Font size="20.0" />
+                           </font>
+                       </Label>
+
+                   </children></AnchorPane>
+           </content>
+       </ScrollPane>
+      <ImageView fitHeight="100.0" fitWidth="109.0" layoutX="22.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/sduLogo.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
